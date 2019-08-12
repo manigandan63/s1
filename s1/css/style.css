@@ -1,0 +1,2014 @@
+/*---- Newsroom Section Starts ----*/
+.newsroom-wrap {
+    padding: 60px 0;
+}
+
+.newsroom-wrap .newsroom-title h1 {
+    color: #7f8dc1;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.newsroom-wrap .newsroom-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.newsroom-wrap .newsroom-content p a {
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+/*---- Newsroom Section Ends ----*/
+
+/*---- Media Release Section Starts ----*/
+.media-release--wrap {
+    background: #f2f3f5;
+    padding: 60px 0;
+}
+
+.media-release--title h1 {
+    font-size: 44px;
+    margin: 20px 0;
+    color: #aaaaaa;
+}
+
+.media-release--content h3 {
+    font-weight: 600;
+    color: #12a29c;
+    margin-bottom: 5px;
+}
+
+.media-release--content p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/*---- Media Release Section Ends ----*/
+
+/*---- Media Center Section Starts ----*/
+.media-center--wrap {
+    padding: 60px 0;
+}
+
+.media-center--title h1 {
+    font-size: 48px;
+    color: #7f8dc1;
+    margin-bottom: 20px;
+}
+
+.media-center--subtitle {
+    margin-bottom: 35px;
+}
+
+.media-center--subtitle p {
+    font-size: 22px;
+}
+
+.media-center--content {
+    margin-bottom: 35px;
+}
+
+.media-center--content p {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.media-center--content p a {
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+    display: inline-block;
+}
+
+.media-center--tabs .nav-tabs > li {
+    float: none;
+    display: inline-block;
+}
+
+.media-center--tabs .nav-tabs > li a {
+    font-size: 20px;
+    display: inline-block;
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+.media-center--tabs .nav-tabs > li.active a {
+    color: #000;
+}
+
+.media-center--tabs .tab-content {
+    padding: 30px 0;
+}
+
+.media-center--tabs .tab-content .m-content {
+    font-size: 20px;
+}
+
+.media-center--tabs .tab-content #reports p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.social-connect--title span a {
+    font-size: 15px;
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+.social-connect--content p a {
+    color: black;
+}
+
+.m-person-details div {
+    padding: 20px 40px;
+}
+
+.m-person-details span {
+    display: inline-block;
+}
+
+.m-person-details div h3 {
+    font-weight: 600;
+    color: #7f8dc1;
+}
+
+.m-person-details div p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/*---- Media Center Section Ends ----*/
+
+/*---- Conversation Section Start ----*/
+.join-conver--wrap {
+    padding: 60px 0;
+    background: #f2f3f5;
+}
+
+.join-conver--title h1 {
+    font-size: 48px;
+    color: #7f8dc1;
+    margin-bottom: 20px;
+}
+
+.join-conver--title p {
+    font-size: 20px;
+}
+
+.social-connect--wrap {
+    padding: 40px 0;
+}
+
+.social-logo--wrap img {
+    width: 200px;
+}
+
+.social-connect--wrap img {
+    margin-bottom: 20px;
+}
+
+.social-connect--box {
+    background: #fff;
+}
+
+.social-connect--title {
+    padding: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.social-connect--title span {
+    font-size: 15px;
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+.social-connect--content {
+    padding: 20px;
+}
+
+.social-connect--content p {
+    font-size: 20px;
+}
+
+/*---- Conversation Section Ends ----*/
+
+/*---- About Hero Section ----*/
+.about-hero--image {
+    position: relative;
+}
+
+.about-hero-image-wrap {
+    height: 500px;
+    background-color: #110000;
+    background-image: url(../img/about-hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.about-hero-image-wrap .hero-image-content {
+    width: 500px;
+    margin-left: auto;
+    color: #fff;
+}
+
+.about-hero-image-wrap .hero-image-content h1 {
+    font-size: 48px;
+}
+
+.about-hero-image-wrap .hero-image-content span {
+    color: var(--theme-color-light-green);
+}
+
+.about-hero-image-wrap .hero-image-content p {
+    font-size: 24px;
+}
+
+.get-to-know-btn {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+    left: 50%;
+    bottom: -40px;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.get-to-know-btn span {
+    display: block;
+}
+
+.get-to-know-btn a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*---- About Hero Section Ends ----*/
+
+/*---- WW Are Section Start ----*/
+.ww-are--wrap {
+    padding: 80px 0 30px;
+}
+
+.ww-are .ww-image,
+.ww-are .ww-content {
+    width: 50%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 40px 150px 40px 30px;
+    background: #f2f3f5;
+}
+
+.ww-are .ww-image {
+    background-image: url(../img/hand-shake.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 60px;
+}
+
+.ww-are .ww-image h1 {
+    color: #fff;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+.ww-are .ww-image h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 65%;
+    height: 5px;
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+}
+
+.ww-are .ww-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#history-section .hero-image--wrap,
+#w-w-operate-section .hero-image--wrap {
+    margin: 0;
+}
+
+/*---- WW Are Section Ends ----*/
+
+/*---- Vision Section Start ----*/
+
+#vision {
+    padding: 40px 0;
+}
+
+.vision-content .vision-icon {
+    margin-right: 10px;
+    margin-top: -3px;
+    width: 30px;
+}
+
+.vision-content .vision-icon img {
+    width: 100%;
+}
+
+.vision-content .vision-icon,
+.vision-content .vision-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--theme-color-purple, #7f8dc1);
+}
+
+.vision-content .vision-title {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.vision-block,
+.mission-block {
+    margin-bottom: 25px;
+}
+
+.vision-content p {
+    font-size: 18px;
+}
+
+.vision-image--container,
+.hwo-ethics--gallerybox {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.vision-image--container img,
+.hwo-ethics--gallerybox img {
+    width: 100%;
+    height: 100%;
+}
+
+.values-container .vision-content {
+    width: 100%;
+}
+
+.values-container .vision-content p:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+/*---- Vision Section Ends ----*/
+
+/*---- Our History Section ----*/
+
+.short-desc--wrap {
+    padding: 30px 0;
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+}
+
+.short-desc--wrap p {
+    color: #fff;
+    font-size: 26px;
+    padding: 0 100px;
+}
+
+/*-- History Timeline Code --*/
+.history-timeline--wrap {
+    height: 800px;
+}
+
+.history-timeline {
+    padding: 0 0 60px;
+}
+
+.t-block {
+    width: calc(100% / 7);
+    position: relative;
+    margin: 0 5px;
+}
+
+.t-year {
+    padding: 5px 35px;
+    border-radius: 4px;
+    font-size: 18px;
+    -webkit-transform: skewX(27deg);
+    transform: skewX(27deg);
+}
+
+.t-year p {
+    -webkit-transform: skewX(-27deg);
+    transform: skewX(-27deg);
+}
+
+.t-block:nth-of-type(odd) .t-year {
+    background-color: #37424a;
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+.t-block:nth-of-type(even) .t-year {
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+    color: #fff;
+}
+
+.t-content,
+.t-image {
+    position: absolute;
+    width: 170px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 16px;
+}
+
+.t-image {
+    width: 45px;
+    margin: auto;
+}
+
+.t-image img {
+    width: 100%;
+}
+
+.t-block:nth-of-type(odd) .t-content {
+    bottom: 150px;
+}
+
+.t-block:nth-of-type(odd) .t-image {
+    top: 50px;
+}
+
+.t-block:nth-of-type(even) .t-content {
+    top: 150px;
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+.t-block:nth-of-type(even) .t-image {
+    bottom: 50px;
+    width: 40px;
+}
+
+.t-year--wrap::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-right: 1px dashed rgba(0, 0, 0, 0.5);
+}
+
+.t-block:nth-of-type(odd) .t-year--wrap::after {
+    bottom: 40px;
+}
+
+.t-block:nth-of-type(even) .t-year--wrap::after {
+    top: 40px;
+}
+
+.t-year--wrap::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #333;
+    border-radius: 50%;
+}
+
+.t-block:nth-of-type(odd) .t-year--wrap::before {
+    bottom: 140px;
+    background-color: #37424a;
+}
+
+.t-block:nth-of-type(even) .t-year--wrap::before {
+    top: 140px;
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+}
+
+
+/*-- History Timeline Code Ends --*/
+
+/*-- Experts View Code Start --*/
+.experts-views {
+    padding: 0px 0 60px;
+}
+
+.experts-views--block {
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+    -webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.7);
+}
+
+.experts-views--content {
+    padding: 40px;
+}
+
+.experts-views--content p {
+    font-size: 28px;
+}
+
+.experts-views--content p span {
+    font-size: 38px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.experts-views--image {
+    width: 70%;
+}
+
+.experts-views--image img {
+    width: 100%;
+}
+
+/*-- Experts View Code Ends --*/
+
+/*---- Our History Section Ends ----*/
+
+/*---- How We Operate Section Start ----*/
+#operate-section section {
+    padding: 40px 0;
+}
+
+.hwo-research--wrap {
+    background-image: url(../img/h-w-operate-research-image.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+.h-research-container h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.h-research-container h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80%;
+    background-color: #fff;
+}
+
+.h-research-container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.h-research-container p:last-of-type {
+    margin: 0;
+}
+
+.h-research-container p a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.hwo-icon {
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.hwo-icon img {
+    width: 25px;
+}
+
+.hwo-icon .fa {
+    font-size: 20px;
+    color: #008a84;
+}
+
+.hwo-content {
+    overflow: hidden;
+}
+
+.hwo-content h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--theme-color-purple, #7f8dc1);
+}
+
+.hwo-content p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hwo-content p a {
+    text-decoration: underline;
+}
+
+/*---- How We Operate Section Ends ----*/
+
+/*---- Where We Operate Section Start ----*/
+.wwo-country,
+.wwo-country-tabs {
+    padding: 40px 0 30px;
+}
+
+.wwo-country-names .region {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.wwo-country-names .region:last-of-type {
+    border: 0;
+}
+
+.wwo-content.hwo-content p {
+    margin-bottom: 0;
+}
+
+.wwo-country-names .region .hwo-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eee;
+    line-height: 45px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.wwo-country-names .region .hwo-icon .fa {
+    color: #fff !important;
+}
+
+.country-tabs-block {
+    margin-bottom: 30px;
+}
+
+.country-tabs-block ul {
+    padding: 15px;
+    background: #59bfcb;
+    display: inline-block;
+}
+
+.country-tabs-block ul li {
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.country-tabs-block ul li:nth-child(2) {
+    border-right: 1px solid #53e2de;
+    border-left: 1px solid #53e2de;
+}
+
+/*---- Where We Operate Section Ends ----*/
+
+
+/*---- Therapeutic Section Start ----*/
+#therapeutic-section section,
+#contraception-section section,
+#hypertension-section section,
+#cholesterol-section section,
+#diabetes-section section,
+#capability-section section,
+#mandela-section section,
+#vaccines-section section,
+#oncology-section section {
+    padding: 25px 0;
+}
+
+.therapeutic-desc--wrap,
+.cholesterol-desc--wrap,
+.contraception-desc--wrap,
+.oncology-desc--wrap,
+.capability-desc--wrap,
+.mandela-desc--wrap,
+.vaccines-desc--wrap,
+.diabetes-desc--wrap {
+    background-color: #f2f3f5;
+}
+
+.therapeutic-desc--container > div,
+.cholesterol-desc--container > div,
+.contraception-desc--container > div,
+.oncology-desc--container > div,
+.capability-desc--container > div,
+.mandela-desc--container > div,
+.vaccines-desc--container > div,
+.diabetes-desc--container > div {
+    width: 50%;
+    padding: 80px 100px 80px 40px;
+}
+
+.therapeutic-desc--image img,
+.cholesterol-desc--image img,
+.contraception-desc--image img,
+.oncology-desc--image img,
+.capability-desc--image img,
+.mandela-desc--image img,
+.vaccines-desc--image img,
+.diabetes-desc--image img {
+    width: 100%;
+    height: 100%;
+}
+
+.therapeutic-desc--content p,
+.cholesterol-desc--content p,
+.contraception-desc--content p,
+.oncology-desc--content p,
+.capability-desc--content p,
+.vaccines-desc--content p,
+.mandela-desc--content p,
+.diabetes-desc--content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.therapeutic-desc--content p:last-of-type,
+.cholesterol-desc--content p:last-of-type,
+.contraception-desc--content p:last-of-type,
+.oncology-desc--content p:last-of-type,
+.capability-desc--content p:last-of-type,
+.vaccines-desc--content p:last-of-type,
+.mandela-desc--content p:last-of-type,
+.diabetes-desc--content p:last-of-type {
+    margin: 0;
+}
+
+.ta-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.ta-icon img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.ta-desc {
+    overflow: hidden;
+}
+
+.ta-desc h3 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: var(--theme-color-purple, #7f8dc1);
+}
+
+.ta-desc p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ta-desc p:last-of-type {
+    margin-bottom: 0;
+}
+
+.ta-therapy .ta-desc p {
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.ta-therapy .ta-desc p:last-of-type {
+    margin: 0;
+}
+
+.ta-causes-list--wrap .list-image {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+    margin-bottom: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ta-causes-list--wrap ul li {
+    list-style: none;
+    display: inline-block;
+    width: calc(100% / 3);
+    float: left;
+    padding: 30px 20px;
+}
+
+.ta-causes-list--wrap .list-image img {
+    width: 50px;
+    margin: auto;
+}
+
+.ta-causes-list--wrap p {
+    font-size: 18px;
+}
+
+.a-symptoms--gallery .gallery-box {
+    padding: 10px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+.a-symptoms--gallery .gallery-box img {
+    width: 100%;
+}
+
+.a-symptoms--content .ta-causes-list--wrap ul li {
+    width: calc(100% / 2);
+    padding: 15px 20px;
+}
+
+.ta-prevention .ta-desc p {
+    margin-bottom: 20px;
+}
+
+.ta-reference {
+    margin-top: 30px;
+}
+
+/*---- Therapeutic Section Ends ----*/
+
+/*---- Contraception Section Start ----*/
+.contraception-desc--container > div {
+    padding: 130px 210px 130px 40px;
+}
+
+.hypertension-video--wrap {
+    padding: 60px 0;
+}
+
+.contraception-video--wrap,
+.hypertension-video--wrap {
+    background-color: #f2f3f5;
+}
+
+.contraception-video--block {
+    width: 45%;
+    height: 513px;
+    margin: auto;
+    position: relative;
+}
+
+.contraception-video--block img,
+.hypertension-video--block img {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail-block {
+    height: 100%;
+    position: relative;
+}
+
+.contraception-video--block .thumbnail-block::after,
+.hypertension-video--block .thumbnail-block::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.video-play-btn span {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 3px;
+}
+
+.video-play-btn span .fa {
+    margin-left: 8px;
+}
+
+.contraception-m-o-a--container .col-md-6 {
+    margin-bottom: 25px;
+}
+
+.contraception-m-o-a--container p {
+    margin-bottom: 20px;
+}
+
+.download-info {
+    margin-top: 60px;
+}
+
+.download-info p {
+    font-size: 16px;
+    max-width: 300px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px !important;
+}
+
+.download-info .download-info-btn {
+    background-color: #00877b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.download-info .download-info-btn img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.reference-section {
+    padding: 40px 0 !important;
+}
+
+.reference-content {
+    padding: 0 50px;
+}
+
+.reference-section h3 {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.reference-section p,
+.reference-section li {
+    font-size: 18px;
+    list-style-position: inside;
+    margin-bottom: 10px;
+    word-break: break-word;
+}
+
+/*---- Contraception Section Ends ----*/
+
+/*---- Hypertension Section Start ----*/
+.hypertension-video--block {
+    width: 100%;
+    height: 641px;
+    margin: auto;
+    position: relative;
+}
+
+.hyp-desc {
+    margin-bottom: 60px;
+}
+
+
+.hypertension-complication--lists {
+    padding: 30px 0;
+}
+
+.hypertension-complication--lists li {
+    list-style: none;
+    padding: 15px;
+    min-height: 250px;
+}
+
+.hypertension-complication--lists li .list-image {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+    margin-bottom: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.hypertension-complication--lists li .list-image img {
+    width: 50px;
+    margin: auto;
+}
+
+.hypertension-treatment .download-info {
+    margin-top: 35px;
+}
+
+/*---- Hypertension Section Ends ----*/
+
+/*---- Cholesterol Section Start ----*/
+.cholesterol-desc--container > div {
+    padding: 50px 80px;
+}
+
+.cholesterol-desc--container > div h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.cholesterol-desc--container > div h1::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 5px;
+    background: #c6c6c8;
+    left: 0;
+    bottom: 0;
+}
+
+.r-f--lists {
+    padding: 30px 0;
+}
+
+.r-f-lists-image {
+    margin-top: 30px;
+}
+
+.r-f-lists-image img {
+    width: 75%;
+}
+
+.r-f-lists-image.b-v-3 img {
+    width: 58%;
+}
+
+.cholesterol-types .ta-desc h4,
+.h-a-type h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.chol-type {
+    margin-top: 30px;
+}
+
+.chol-type-table {
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.chol-type-table > .table,
+.chol-type-table > .table > thead > tr > th,
+.chol-type-table > .table > tbody > tr > td {
+    border: 0;
+    padding: 15px;
+}
+
+.chol-type-table > .table > thead > tr {
+    background: var(--theme-color-green, #008a84);
+    background: #008a84;
+}
+
+.chol-type-table > .table > thead > tr > th {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.chol-type-table > .table > tbody > tr > td {
+    font-size: 18px;
+}
+
+.h-a-type--wrap {
+    padding: 15px 0;
+}
+
+.h-a-type-list {
+    padding: 30px 15px;
+}
+
+.h-a-type-list p {
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.h-a-type-list span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: var(--theme-color-green, #008a84);
+    background-color: #008a84;
+    margin-bottom: 20px;
+}
+
+.h-a-type-list span img {
+    width: 50px;
+}
+
+.cholesterol-limits h4 {
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.lifestyle-change--content {
+    margin-top: 40px;
+}
+
+.cholesterol-medicines .chol-type-table > .table > tbody > tr > td {
+    width: 50%;
+    padding: 30px 15px;
+}
+
+/*---- Cholesterol Section Ends ----*/
+
+/*---- Diabetes Section Start ----*/
+.about-diabetes .ta-desc p {
+    margin-bottom: 30px;
+}
+
+/*---- Diabetes Section Ends ----*/
+
+
+/*---- Oncology Section Start ----*/
+#oncology-section .reference-content {
+    padding: 0;
+}
+
+/*---- Oncology Section Ends ----*/
+
+/*---- Access Section Starts ----*/
+
+.access-wrap {
+    padding: 60px 0;
+}
+
+.access-wrap .access-title h1 {
+    color: #7f8dc1;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.access-subtitle {
+    padding-bottom: 50px;
+}
+
+.access-wrap .access-subtitle h3 {
+    color: #00877c;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.access-wrap .access-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*---- Access Section ends ----*/
+
+
+/*---- COMMUNITY Section Start ----*/
+
+.community-wrap .community-title h1 {
+    color: #7f8dc1;
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.community-wrap {
+    padding: 50px 0;
+}
+
+.community-section {
+    height: 400px;
+    position: relative;
+}
+
+.community-section img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+.community-section a,
+.community-section .community-img-section {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.community-section .community-img-section a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.community-section:hover .community-img-section a::after {
+    opacity: 1;
+}
+
+.community-section-txt {
+    width: 100%;
+    background: rgba(3, 112, 105, 0.8);
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.community-subtitle h3 {
+    color: #aaaaaa;
+    padding-bottom: 40px;
+    font-size: 28px;
+}
+
+
+/*---- COMMUNITY Section Ends ----*/
+
+
+/*---- Contact Section ends ----*/
+
+.contact-image--wrap {
+    background-image: url(../img/bg_contact_image.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-image--content {
+    z-index: 2;
+}
+
+.contact-image--content h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.contact-image--content p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-wrap {
+    padding: 50px 0;
+}
+
+.contact-subtitle {
+    padding-bottom: 20px;
+}
+
+.contact-wrap .contact-subtitle1 h3 {
+    color: #00877c;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.contact-wrap .contact-address ul li {
+    font-size: 20px;
+}
+
+.contact-wrap .email-btn {
+    background: #00877c none repeat scroll 0 0;
+    border: 1px solid #33cbc5;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 40px;
+    -webkit-transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    white-space: normal;
+    z-index: 1;
+    border-radius: 6px;
+    width: 265px;
+}
+
+.contact-subtitle2 h4 {
+    font-weight: bold;
+    color: #7f8dc1;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.contact-subtitle2 p {
+    font-size: 20px;
+}
+
+.contact-subtitle1:nth-child(2) {
+    padding: 10px 0;
+    padding-bottom: 6px;
+}
+
+.contact-button {
+    padding: 16px 0 35px 0;
+}
+
+.contact-subtitle2-links {
+    color: #00877c;
+}
+
+.contact-wrap .contact-subtitle1 h3 {
+    font-size: 23px;
+}
+
+
+/*---- Contact Section ends ----*/
+
+
+/*---- Contat conversation Section Start ----*/
+
+.contact-join-conver--wrap {
+    padding: 30px 0;
+    background: #f1f1f1;
+}
+
+.contact-join-conver--align {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.contact-join-conver--title h1 {
+    font-size: 48px;
+    color: #00877c;
+    margin-bottom: 20px;
+}
+
+.contact-join-conver--title p {
+    font-size: 20px;
+}
+
+/*---- Contat conversation Section Start ----*/
+
+/*---- environment Section Starts ----*/
+
+.environment-wrap {
+    padding: 60px 0;
+}
+
+.environment-wrap .environment-title h1 {
+    color: #7f8dc1;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.environment-subtitle {
+    padding-bottom: 50px;
+}
+
+.environment-wrap .environment-subtitle h3 {
+    color: #00877c;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.environment-wrap .environment-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*---- environment Section ends ----*/
+
+
+/*----  MANDELA SECTION START  ----*/
+
+#mandela-section .hero-image--content {
+    max-width: 600px;
+    margin-left: 0;
+}
+
+#capability-section .hero-image--content {
+    margin: 0;
+    max-width: 100%;
+}
+
+#capability-section .hero-image--content h1 {
+    font-size: 36px;
+}
+
+
+#mandela-section .hero-image--content h1 {
+    margin-top: 0;
+}
+
+#mandela-section .hero-image--content p {
+    margin-bottom: 10px;
+}
+
+.mandela-gallery .a-symptoms-content--container {
+    padding: 30px 45px 30px 0;
+}
+
+.mandela-join-conver--title h1 {
+    font-size: 32px;
+    color: var(--theme-color-purple, #7f8dc1);
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.mandela-join-conver--image {
+    width: 60%;
+    margin: 60px auto 70px;
+}
+
+.mandela-join-conver--image img {
+    width: 100%;
+}
+
+section.mandela-join-conver--wrap {
+    background: #f1f1f1;
+    margin-top: 25px;
+}
+
+/*----  MANDELA SECTION END  ----*/
+
+
+/*---- Media-conacts conversation Section start ----*/
+
+.media-contacts-image--wrap {
+    background-image: url(../img/bg_hero_image.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.media-contacts-image--content {
+    z-index: 2;
+}
+
+.media-contacts-image--content h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    -webkit-animation: zoomin 3s linear;
+    animation: zoomIn 3.5s linear;
+}
+
+.media-contacts-image--content h1 span {
+    color: #59bfcb;
+}
+
+.media-contacts-section1 {
+    padding: 25px 0;
+}
+
+.media-contacts-wrap .media-contacts-title h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.media-contacts-wrap .media-contacts-title h1 span {
+    color: #7f8dc1;
+}
+
+.media-contacts-wrap .media-contacts-title h1 {
+    font-size: 26px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.media-contacts-section2 p,
+.media-contacts-content p,
+.media-contacts-section4,
+.media-contacts-content ul li {
+    font-size: 20px;
+}
+
+.media-contacts-section2 h2,
+.media-contacts-section4 h2 {
+    color: #aaaaaa;
+    font-size: 50px;
+}
+
+.media-contacts-section3 p a {
+    font-size: 15px;
+    word-wrap: break-word;
+    color: #010101;
+}
+
+.media-contacts-section3 {
+    border-top: 1px solid #80808075;
+    padding: 7px 0;
+    margin-top: 24px;
+    border-bottom: 1px solid #80808075;
+}
+
+.media-contacts-border {
+    border-bottom: 3px solid #80808075;
+    padding-bottom: 0 !important;
+    width: 334px;
+}
+
+.media-contacts-section4 a {
+    color: #00877c;
+}
+
+.media-contacts-section2 h2,
+.media-contacts-section4 h2 {
+    padding-bottom: 10px;
+}
+
+.media-contacts-section4 {
+    padding: 20px 0;
+    padding-bottom: 40px;
+}
+
+.media-contacts-section3 p {
+    padding: 3px 0;
+}
+
+.media-contacts-section3 li {
+    padding: 8px 0;
+}
+
+.media-contacts-section3 li p,
+.media-contacts-section3 li a {
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.media-contacts-section3 li a sup {
+    font-size: 10px;
+}
+
+.media-contacts-section3 ul li p {
+    float: left;
+    padding-left: 1px;
+}
+
+.media-contacts-section3 ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+}
+
+.media-contacts-section3 ul li sup {
+    top: -0.33em;
+}
+
+.media-contacts-section3 li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.media-contacts-section3 p {
+    padding: 0;
+    padding-left: 1px;
+    margin: 0;
+}
+
+.media-contacts-section3 p sup {
+    top: -0.33em;
+}
+
+.media-contacts-wrap {
+    background: #f2f3f5;
+    padding-top: 40px;
+}
+
+.media-footer-section {
+    border-top: none !important;
+}
+
+.media-contacts-section3 ul {
+    margin: 0;
+}
+
+.media-contacts-section3 ul li p {
+    margin: 0;
+}
+
+.media-contacts-section4 h2:nth-child(4) {
+    padding-top: 40px;
+}
+
+h2.media-contacts-border {
+    padding-top: 40px;
+}
+
+.media-contacts-section4 h2:nth-child(5) {
+    padding-top: 40px;
+}
+
+#media-contacts-section .media-contacts-section2 h2:nth-child(1) {
+    padding-top: 15px;
+}
+
+#media-contacts-section .media-contacts-section2 h2:nth-child(6) {
+    padding-top: 40px;
+}
+
+#media-vaccine-section .media-contacts-section3.media-vaccine-section3 {
+    border-top: 2px solid #80808075;
+    padding: 7px 0;
+    margin-top: 24px;
+    padding-bottom: 40px;
+    border-bottom: none;
+}
+
+#media-vaccine-section .media-contacts-section2 h2:nth-child(1) {
+    padding-top: 15px;
+}
+
+#media-vaccine-section .media-contacts-section2 h2:nth-child(6) {
+    padding-top: 40px;
+}
+
+#media-hpv-section h2.media-contacts-border {
+    padding-top: 25px;
+}
+
+.m-l-123 {
+    margin-left: 123px;
+}
+
+
+/*---- Media-conacts  conversation Section end ----*/
+
+
+/*---- TRANSPARENCY Section Start ----*/
+#transparency-section .hero-image--content {
+    max-width: 565px;
+    margin-left: 45px;
+}
+
+#transparency-section .ta-icon {
+    width: 30px;
+    margin-right: 15px;
+}
+
+#transparency-section .hero-image--content h1 {
+    font-size: 44px;
+}
+
+.transparency-wrap .transparency-title h1 {
+    color: #7f8dc1;
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.transparency-wrap {
+    margin: 50px 0;
+}
+
+.transparency-wrap .transparency-title h1 {
+    color: #7f8dc1;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.transparency-subtitle {
+    padding-bottom: 50px;
+}
+
+.transparency-content {
+    padding-bottom: 17px;
+}
+
+.transparency-wrap .transparency-subtitle h3 {
+    color: #00877c;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.transparency-subtitle2 {
+    padding: 15px 0;
+}
+
+.transparency-subtitle2 h4 span {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.transparency-subtitle2 h4 {
+    color: #7f8dc1;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.transparency-subtitle2 h4 span img {
+    width: 25px;
+}
+
+.transparency-logo img {
+    width: 173px;
+}
+
+.transparency-subtitle2 p,
+.transparency-logo-content p,
+.transparency-wrap .transparency-content p,
+.transparency-image--content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.transparency-subtitle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 47px 0;
+}
+
+.transparency-logo-content {
+    padding: 0 24px;
+}
+
+.transparency-logo-content h3 {
+    font-size: 30px;
+}
+
+
+/*---- TRANSPARENCY Section Ends ----*/
+
+
+/*----  VACCINES SECTION START  ----*/
+
+
+/*---- Vaccines Hero Section start----*/
+#vaccines-section .hero-image--content {
+    max-width: 230px;
+    text-align: center;
+}
+
+/*---- Vaccines Hero Section end ----*/
+
+/*---- Vaccines Are Section Start ----*/
+
+.vaccines-link-sec {
+    padding: 50px 0 0;
+}
+
+.vaccines-link-sec p {
+    color: #00877c;
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.vaccines-link-sec a {
+    display: inline-block;
+    position: relative;
+}
+
+.apple-store-green,
+.google-store-green {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    display: none;
+}
+
+.vaccines-link-sec img {
+    max-width: 250px;
+    height: 70px;
+    margin-right: 25px;
+    border-radius: 13px;
+}
+
+.vaccines-link-sec a.apple-store:hover .apple-store-green {
+    display: inline-block;
+}
+
+.vaccines-link-sec a.google-store:hover .google-store-green {
+    display: inline-block;
+}
+
+/*----  VACCINES SECTION END  ----*/
+
+
+/*---- Terms of use Section start ----*/
+
+.terms-of-use-image--wrap {
+    background-image: url(../img/terms-of-use-image.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.terms-of-use-image--content {
+    z-index: 2;
+}
+
+.terms-of-use-image--content h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.terms-of-use-wrap {
+    padding: 60px 0;
+}
+
+.terms-of-use-wrap .terms-of-use-title h1 {
+    color: #7f8dc1;
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.terms-of-use-subtitle {
+    padding-bottom: 20px;
+}
+
+.terms-of-use-wrap .terms-of-use-subtitle h3 {
+    color: #00877c;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.terms-of-use-wrap .terms-of-use-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.terms-of-use-content a {
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+
+/*---- Terms of use Section end ----*/
+
+
+/*---- Privacy Section end ----*/
+
+.privacy-image--wrap {
+    background: #00877c;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.privacy-image--content {
+    z-index: 2;
+}
+
+.privacy-image--content h1 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.privacy-wrap {
+    padding: 30px 0;
+}
+
+.privacy-wrap .privacy-title h1 {
+    color: #7f8dc1;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.privacy-subtitle {
+    padding-bottom: 20px;
+}
+
+.privacy-wrap .privacy-subtitle h3 {
+    color: #00877c;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.privacy-wrap .privacy-content p,
+.privacy-greybox p,
+.privacy-greybox ul li {
+    font-size: 20px;
+}
+
+.privacy-content a {
+    color: var(--theme-color-green, #008a84);
+}
+
+.privacy-content ul li {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.privacy-content h2,
+.privacy-greybox h2 {
+    color: #7f8dc1;
+    font-size: 40px;
+}
+
+.privacy-standards-transparency {
+    height: auto;
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.privacy-greybox {
+    background: #eaedf0;
+    padding: 12px 15px;
+}
+
+.privacy-global-standards {
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+    height: auto;
+}
+
+.privacy-transparency {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+    height: auto;
+}
+
+.privacy-greybox h2 {
+    margin-top: 0;
+}
+
+.privacy-greybox a {
+    color: var(--theme-color-green, #008a84);
+    color: #008a84;
+}
+
+.privacy-greybox ul li {
+    padding: 10px 0
+}
+
+/*---- Privacy Section end ----*/

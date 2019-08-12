@@ -1,0 +1,1250 @@
+@media only screen and (min-width: 1025px) {
+
+    .vision-content {
+        padding-right: 150px;
+    }
+
+    .hero-image--content {
+        margin-left: 160px;
+    }
+
+    .mandela-join-conver--title h1 {
+        width: 70%;
+        margin: 30px auto 0;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    #home {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .therapeutic-desc--container > div,
+    .cholesterol-desc--container > div,
+    .contraception-desc--container > div,
+    .oncology-desc--container > div,
+    .capability-desc--container > div,
+    .mandela-desc--container > div,
+    .vaccines-desc--container > div,
+    .diabetes-desc--container > div {
+        padding: 25px 40px;
+    }
+
+    .therapeutic-desc--content p,
+    .cholesterol-desc--content p,
+    .contraception-desc--content p,
+    .oncology-desc--content p,
+    .capability-desc--content p,
+    .mandela-desc--content p,
+    .vaccines-desc--content p,
+    .diabetes-desc--content p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        margin-top: 0px;
+    }
+
+    .msd-breadcrumbs {
+        display: none;
+    }
+
+    .navigation-menu {
+        display: none;
+    }
+
+    .navigation-wrap {
+        position: static;
+    }
+
+    .t-block {
+        margin: 0 5px;
+    }
+
+    .t-content {
+        font-size: 14px;
+    }
+
+    .t-year {
+        padding: 5px 25px;
+    }
+
+    .ta-desc p {
+        font-size: 18px;
+    }
+
+    .rotate {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .push-sidenav-right {
+        left: 80% !important;
+        position: fixed;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+
+    .navigation-wrap {
+        height: 70px;
+    }
+
+    .mobile-navigation {
+        display: block;
+    }
+
+    .mobile-navigation .toggle-menu {
+        padding: 10px;
+    }
+
+    .mobile-navigation .toggle-menu span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #000;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+
+    .mobile-navigation .toggle-menu span:last-child {
+        margin: 0;
+    }
+
+    .mobile-navigation .menu-label {
+        font-size: 16px;
+        color: var(--theme-color-green);
+        margin-left: 10px;
+    }
+
+    .mobile-sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        background: #337478;
+        z-index: 1999;
+        overflow-y: auto;
+        will-change: transform;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    .mobile-menu .dropdown-btn {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        display: inline-block;
+        background: none;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        width: 15%;
+        height: 40px;
+        padding: 8px;
+        border-right: 1px solid #285f63;
+        border-bottom: 1px solid #285f63;
+    }
+
+    .menu-open {
+        background-color: #306E72 !important;
+        color: white;
+    }
+
+    .mobile-menu .dropdown-container {
+        display: none;
+    }
+
+    .mobile-sidebar .mobile-menu li a {
+        color: #fff;
+        padding: 15px 0 0 15px;
+        height: 40px;
+        font-size: 15px;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .mobile-sidebar .mm-item {
+        display: block;
+        width: 85%;
+        float: left;
+        color: #fff;
+        line-height: 12px;
+        border-right: 1px solid #285f63;
+        border-bottom: 1px solid #285f63;
+    }
+
+    .mobile-menu .dropdown-container li > .sub-nav {
+        display: block;
+        background-color: #306E72;
+        border-right: 1px solid #285f63;
+        border-bottom: 1px solid #285f63;
+        padding: 0 32px !important;
+        line-height: 40px;
+    }
+
+    .mobile-menu .dropdown-container > li > .dropdown-container li a,
+    .mobile-menu .dropdown-container > li > .dropdown-btn.menu-open {
+        background-color: #2E686C !important;
+    }
+
+    .mobile-menu .close {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    /*---- Home Page ----*/
+    .home-slider--wrap .owl-item {
+        position: relative;
+        z-index: 1;
+    }
+
+    .home-slider--wrap .owl-item::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    /*---- Home Page End ----*/
+
+    .copyright-row {
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .copyright-row p {
+        margin-bottom: 10px !important;
+    }
+
+    .copyright-row .d-flex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .social-links--icons {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .social-links--icons .right-section {
+        margin-top: 20px;
+    }
+
+    .social-links--icons a {
+        margin: 0 5px;
+    }
+
+    .hero-image--wrap {
+        height: 200px;
+    }
+
+    .hero-image--wrap::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .experts-views--content p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .experts-views--content p span {
+        font-size: 28px;
+    }
+
+    /*---- Vision ----*/
+    #vision {
+        padding: 80px 0;
+    }
+
+    .ww-are .ww-image,
+    .ww-are .ww-content {
+        padding: 40px 20px;
+    }
+
+    .hwo-ethics--gallerybox {
+        width: 100%;
+    }
+
+    .therapeutic-desc--container > div,
+    .contraception-desc--container > div,
+    .mandela-desc--container > div,
+    .capability-desc--container > div,
+    .oncology-desc--container > div {
+        padding: 25px 40px;
+    }
+
+    /*---- Hypertension ----*/
+    .hypertension-complication--lists li {
+        padding: 0;
+    }
+
+    .r-f-lists-image.b-v-3 img {
+        width: 21%;
+    }
+
+    /*---- Contraception ----*/
+
+
+    /*---- Access Section start ----*/
+    .access-image--content h1 {
+        font-size: 35px;
+    }
+
+    .access-image--content p,
+    .access-wrap .access-content p {
+        font-size: 18px;
+    }
+
+    /*---- Access Section ends ----*/
+
+    /*---- COMMUNITY Section Start ----*/
+    .community-image--content h1 {
+        font-size: 34px;
+    }
+
+    .community-subtitle h3 {
+        font-size: 24px;
+    }
+
+    .community-image--content p,
+    .community-section-txt p {
+        font-size: 18px;
+    }
+
+    /*---- COMMUNITY Section Ends ----*/
+
+    /*---- Contact Section ends ----*/
+    .contact-image--content h1 {
+        font-size: 38px;
+    }
+
+    .contact-image--content p,
+    .contact-wrap .contact-address ul li,
+    .contact-subtitle2 p {
+        font-size: 18px;
+    }
+
+    .contact-subtitle2 h4 {
+        font-size: 20px;
+    }
+
+    /*---- Contact Section ends ----*/
+
+    /*---- Contat conversation Section Start ----*/
+    .contact-join-conver--title h1 {
+        font-size: 38px;
+    }
+
+    .contact-join-conver--title p {
+        font-size: 18px;
+    }
+
+    /*---- Contat conversation Section end ----*/
+
+    /*---- environment Section start ----*/
+    .environment-image--content h1 {
+        font-size: 38px;
+    }
+
+    .environment-image--content p,
+    .environment-wrap .environment-content p {
+        font-size: 18px;
+    }
+
+    .environment-wrap .environment-title h1 {
+        font-size: 37px;
+    }
+
+    /*---- environment Section ends ----*/
+
+    /*---- Mandela conversation Section Start ----*/
+
+    .mandela-gallery .a-symptoms-content--container {
+        padding: 0 45px 0 0;
+    }
+
+    /*---- Mandela conversation Section End ----*/
+
+    /*---- Media-conacts conversation Section start ----*/
+    .media-contacts-image--content h1 {
+        font-size: 38px;
+    }
+
+    .media-contacts-wrap .media-contacts-title h1 {
+        font-size: 22px;
+    }
+
+    .media-contacts-section2 p,
+    .media-contacts-content p,
+    .media-contacts-section4,
+    .media-contacts-content ul li {
+        font-size: 18px;
+    }
+
+    .media-contacts-border {
+        width: 210px;
+    }
+
+    .media-contacts-section2 h2,
+    .media-contacts-section4 h2 {
+        font-size: 31px;
+    }
+
+    /*---- Media-conacts conversation Section end ----*/
+
+    /*---- Transparency Start----*/
+    .transparency-image--content h1 {
+        font-size: 34px;
+    }
+
+    .transparency-wrap .transparency-title h1 {
+        font-size: 32px;
+    }
+
+    .transparency-subtitle2 h4 {
+        font-size: 20px;
+    }
+
+    .transparency-subtitle2 p,
+    .transparency-logo-content p,
+    .transparency-wrap .transparency-content p,
+    .transparency-image--content p {
+        font-size: 18px;
+    }
+
+    .transparency-wrap .transparency-subtitle h3 {
+        font-size: 20px;
+    }
+
+    .transparency-subtitle2 h4 span img {
+        width: 22px;
+    }
+
+    .transparency-logo-content h3 {
+        font-size: 25px;
+    }
+
+    .transparency-wrap {
+        margin: 30px 0;
+    }
+
+    .transparency-subtitle {
+        padding-bottom: 30px;
+    }
+
+    .transparency-subtitle2 {
+        padding: 7px 0;
+    }
+
+    .transparency-subtitle3 {
+        padding: 27px 0;
+    }
+
+    .transparency-subtitle2 h4 span {
+        display: block;
+        float: left;
+    }
+
+    /*---- Transparency End----*/
+
+    /*---- Vaccines Start ----*/
+    .vaccines-image--content h1 {
+        font-size: 38px;
+    }
+
+    .vaccines-image--content p,
+    .vaccines-are .vaccines-content p,
+    .vaccines-subtitle p,
+    .vaccines-subtitle-content ul li a {
+        font-size: 18px;
+    }
+
+    .vaccines-content p {
+        width: auto;
+        line-height: inherit;
+    }
+
+    /*---- Vaccines End ----*/
+
+    /*---- terms-of-use conversation Section start ----*/
+    .terms-of-use-image--content h1,
+    .terms-of-use-wrap .terms-of-use-title h1 {
+        font-size: 35px;
+    }
+
+    .terms-of-use-wrap .terms-of-use-content p {
+        font-size: 18px;
+    }
+
+    /*---- terms-of-use conversation Section end  ----*/
+
+    /*---- privacy conversation Section start ----*/
+    .privacy-image--content h1 {
+        font-size: 30px;
+    }
+
+    .privacy-wrap .privacy-title h1 {
+        font-size: 27px;
+    }
+
+    .privacy-content h2,
+    .privacy-greybox h2 {
+        font-size: 25px;
+    }
+
+    .privacy-wrap .privacy-content p,
+    .privacy-content ul li,
+    .privacy-wrap .privacy-content p,
+    .privacy-greybox p,
+    .privacy-greybox ul li {
+        font-size: 17px;
+    }
+
+    /*---- privacy conversation Section end  ----*/
+}
+
+/*----- Max Width 768px -----*/
+@media only screen and (max-width: 768px) {
+
+    .hero-image--content h1 {
+        font-size: 38px !important;
+    }
+
+    .t-block.fadeInDown {
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+    }
+
+    /*---- Vision ----*/
+    .vision-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .vision-content,
+    .vision-block,
+    .vision-image {
+        margin-bottom: 20px;
+    }
+
+    .ww-are--container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .ww-are .ww-image,
+    .ww-are .ww-content {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .ww-are .ww-image {
+        padding: 100px 20px;
+        background-size: 110%;
+        z-index: 1;
+        position: relative;
+    }
+
+    .ww-are .ww-image::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .ww-are .ww-content p {
+        font-size: 16px;
+    }
+
+    .mobile-v-map {
+        width: 70%;
+        margin: 0 auto 70px;
+    }
+
+    .vision-content {
+        padding: 0px;
+    }
+
+    .about-hero-image-wrap .hero-image-content {
+        width: auto;
+    }
+
+    /*---- Vision End ----*/
+
+    /*---- History Start ----*/
+    #history-section .hero-image--content {
+        text-align: center;
+    }
+
+    .short-desc--wrap p {
+        padding: 0;
+    }
+
+    .history-timeline--wrap {
+        height: 100%;
+    }
+
+    .history-timeline--container {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 50px 20px;
+    }
+
+    .t-block {
+        width: 100%;
+        margin: 0;
+        padding: 25px 30px;
+    }
+
+    .t-content,
+    .t-image {
+        width: 100%;
+        position: static;
+        -webkit-transform: translate(0);
+        transform: translate(0);
+    }
+
+    .t-image {
+        display: none;
+    }
+
+    .t-year--wrap {
+        margin-bottom: 75px;
+    }
+
+    .t-block .t-year--wrap::after,
+    .t-block:nth-of-type(even) .t-year--wrap::after {
+        top: 60px;
+        height: 60px;
+    }
+
+    .t-year--wrap::before {
+        top: 120px !important;
+    }
+
+    .experts-views--block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .experts-views--content {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        padding: 40px 20px;
+    }
+
+    .experts-views--content p {
+        line-height: 28px;
+    }
+
+    .experts-views--image {
+        width: 100%;
+    }
+
+    /*---- History End ----*/
+
+    /*---- How We Operate Start ----*/
+    .hwo-research--wrap {
+        padding: 40px 15px;
+    }
+
+    .hwo-ethics--gallery {
+        margin-top: 20px;
+    }
+
+    /*---- How We Operate End ----*/
+
+    /*---- Where We Operate Start ----*/
+    .wwo-country-tabs {
+        padding-top: 0;
+    }
+
+    .wwo-country--map {
+        margin-bottom: 20px;
+    }
+
+    .country-tabs-block ul {
+        padding: 15px 5px;
+    }
+
+    .country-tabs-block ul li a {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    /*---- Where We Operate End ----*/
+
+    /*---- Therapeutic Areas Start ----*/
+
+    .therapeutic-desc--container,
+    .contraception-desc--container,
+    .diabetes-desc--container,
+    .oncology-desc--container,
+    .capability-desc--container,
+    .mandela-desc--container,
+    .vaccines-desc--container,
+    .cholesterol-desc--container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .therapeutic-desc--container > div,
+    .contraception-desc--container > div,
+    .diabetes-desc--container > div,
+    .oncology-desc--container > div,
+    .capability-desc--container > div,
+    .mandela-desc--container > div,
+    .vaccines-desc--container > div,
+    .cholesterol-desc--container > div {
+        width: 100%;
+        padding: 140px 20px;
+        overflow: hidden;
+    }
+
+    .therapeutic-desc--image img,
+    .cholesterol-desc--image img,
+    .contraception-desc--image img,
+    .oncology-desc--image img,
+    .capability-desc--image img,
+    .mandela-desc--image img,
+    .vaccines-desc--image img,
+    .diabetes-desc--image img {
+        width: 115%;
+        height: 300px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+
+    .therapeutic-desc--content,
+    .contraception-desc--content,
+    .diabetes-desc--content,
+    .oncology-desc--content,
+    .capability-desc--content,
+    .mandela-desc--content,
+    .vaccines-desc--content,
+    .cholesterol-desc--content {
+        padding: 40px 20px !important;
+    }
+
+    .therapeutic-desc--content p,
+    .mandela-desc--content p {
+        font-size: 18px;
+    }
+
+    .ta-causes-list--wrap ul li {
+        padding: 10px;
+        width: calc(100% / 2);
+    }
+
+    .a-symptoms--gallery {
+        margin-bottom: 40px;
+    }
+
+    .a-treatment .a-symptoms--content {
+        padding: 0;
+    }
+
+
+    /*---- Therapeutic Areas End ----*/
+
+    /*---- Community Section Start----*/
+    .community-section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .community-section1,
+    .community-section2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        height: 420px;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /*---- Community Section End----*/
+
+    /*---- Mandela conversation Section Start ----*/
+
+    .mandela-gallery .a-symptoms-content--container {
+        padding: 0;
+    }
+
+    .capability-desc--content {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    /*---- Mandela conversation Section End ----*/
+
+    /*---- Transparency Start----*/
+    .transparency-subtitle3 {
+        padding: 40px 0;
+        padding-bottom: 0;
+    }
+
+    .transparency-logo img {
+        width: 145px;
+        margin-right: 25px;
+    }
+
+    .transparency-logo-content {
+        padding: 0;
+    }
+
+    .transparency-wrap {
+        margin-bottom: 42px;
+    }
+
+    /*---- Transparency End----*/
+    /*---- Vaccines Start----*/
+    .vaccines-subtitle p,
+    .vaccines-subtitle-content ul li a {
+        padding-left: 0;
+    }
+
+    .vaccines-are .vaccines-image {
+        background-image: url(../img/about-vaccines-image2.png);
+    }
+
+    .vaccines-are--container.d-flex {
+        display: block;
+    }
+
+    .vaccines-are .vaccines-image,
+    .vaccines-are .vaccines-content {
+        width: 100%;
+        height: 264px;
+    }
+
+    .vaccines-content {
+        height: auto !important;
+    }
+
+    .vaccines-content.container {
+        padding: 23px 15px !important;
+    }
+
+    .vaccines-link-sec a:nth-child(3) {
+        margin: 10px 0;
+    }
+
+    .vaccines-link-sec img {
+        width: 90%;
+    }
+
+    /*---- Vaccines End----*/
+
+    /*---- Media-conacts  conversation Section start ----*/
+    .m-l-123 {
+        margin-left: 0;
+    }
+
+    /*---- Media-conacts  conversation Section end ----*/
+
+    .contraception-video--block,
+    .hypertension-video--block {
+        width: 64%;
+        height: 460px;
+    }
+
+}
+
+/*---- Max Width 768PX Ends ----*/
+
+/*---- Max Width 700PX ----*/
+@media only screen and (max-width: 700px) {
+
+    h4 {
+        line-height: 24px;
+    }
+
+    .ta-desc h3 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .ta-icon {
+        width: 30px;
+        margin-right: 15px;
+        margin-top: -2px;
+    }
+
+    .scroll-top-btn {
+        right: 20px;
+        bottom: 30px;
+    }
+
+    #vision {
+        padding: 0;
+    }
+
+    .about-hero-image-wrap {
+        background-position: -96% center;
+    }
+
+    #oncology-section .hero-image--wrap,
+    #contraception-section .hero-image--wrap {
+        background-position: 70% center;
+    }
+
+    #vaccines-section .hero-image--wrap {
+        background-position: 80% center;
+    }
+
+    .hero-image--container {
+        margin: 0;
+    }
+
+    #history-section .hero-image--wrap {
+        background-position: 70% center !important;
+    }
+
+    #therapeutic-section .hero-image--wrap {
+        background-position: 65% center !important;
+    }
+
+    .short-desc--wrap p {
+        font-size: 20px !important;
+    }
+
+    .hero-image--content h1 {
+        font-size: 30px !important;
+        margin-bottom: 5px;
+    }
+
+    .hero-image--content p {
+        font-size: 18px;
+    }
+
+    .hwo-research--wrap {
+        padding: 40px 0;
+    }
+
+    .m-person-details div {
+        padding: 20px 10px;
+    }
+
+    .join-conver--title h1 {
+        font-size: 40px;
+    }
+
+    .social-logo--wrap a {
+        display: inline-block;
+        width: calc((100% / 2) * 1.6);
+    }
+
+    .social-logo--wrap a img {
+        width: 100%;
+    }
+
+
+    #therapeutic-section section,
+    #contraception-section section,
+    #hypertension-section section,
+    #cholesterol-section section,
+    #oncology-section section,
+    #vaccines-section section,
+    #diabetes-section section {
+        padding: 20px 0;
+    }
+
+    .therapeutic-desc--content p,
+    .cholesterol-desc--content p,
+    .contraception-desc--content p,
+    .vaccines-desc--content p,
+    .oncology-desc--content p,
+    .diabetes-desc--container p {
+        font-size: 18px;
+    }
+
+    .therapeutic-desc--container > div,
+    .contraception-desc--container > div,
+    .diabetes-desc--container > div,
+    .oncology-desc--container > div,
+    .capability-desc--container > div,
+    .vaccines-desc--container > div,
+    .cholesterol-desc--container > div {
+        background-size: cover;
+        padding: 100px 20px;
+    }
+
+    #therapeutic-section .gallery-box {
+        margin-top: 25px;
+    }
+
+    .reference-content {
+        padding: 0;
+    }
+
+    .ta-desc {
+        overflow: inherit;
+    }
+
+    .ta-causes-list--wrap ul li {
+        height: 225px;
+    }
+
+    .hypertension-complication--lists li {
+        min-height: inherit;
+        padding: 25px 15px;
+    }
+
+    .hypertension-treatment .ta-desc {
+        margin-bottom: 30px;
+    }
+
+    .hypertension-treatment .a-symptoms--gallery {
+        margin: 0;
+    }
+
+    .hypertension-complication--lists li.m-t-60 {
+        margin: 0;
+    }
+
+    .download-info {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hypertension-complication--lists {
+        padding: 0;
+    }
+
+    .hyp-desc {
+        margin-bottom: 30px;
+    }
+
+    #contraception-section .ta-icon,
+    #hypertension-section .hypertension-defined .ta-icon {
+        margin-bottom: 30px;
+    }
+
+    .cholesterol-r-f .ta-icon {
+        margin-bottom: 50px;
+    }
+
+    #hypertension-section .hypertension-defined .ta-icon {
+        margin-top: 5px;
+    }
+
+    #contraception-section .contraception-s-s .ta-icon {
+        margin-bottom: 0;
+    }
+
+    #contraception-section .contraception-m-o-a .ta-icon {
+        margin-bottom: 50px;
+    }
+
+    .contraception-m-o-a .download-info p {
+        max-width: 100%;
+    }
+
+    .contraception-video--block,
+    .hypertension-video--block {
+        width: 100%;
+        height: 290px;
+    }
+
+    .cholesterol-limits h4,
+    .h-a-type h4 {
+        line-height: 26px;
+    }
+
+    .h-a-type--wrap {
+        padding: 0;
+    }
+
+    .h-a-type-list {
+        padding: 15px;
+    }
+
+    .h-a-type-list span,
+    .ta-causes-list--wrap .list-image {
+        margin-bottom: 8px;
+    }
+
+    .oncology-gallery .ta-desc {
+        margin-bottom: 20px;
+    }
+
+    #diabetes-section .h-a-type-list {
+        padding: 20px 0;
+    }
+
+    /*---- Mandela Start----*/
+    #mandela-section .hero-image--content h1 {
+        font-size: 22px !important;
+    }
+
+    #mandela-section .hero-image--content p,
+    #mandela-section .hero-image--content h3 {
+        font-size: 18px !important;
+    }
+
+    #mandela-section .a-symptoms--gallery {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mandela-join-conver--title h1 {
+        font-size: 26px;
+    }
+
+    .mandela-join-conver--image {
+        width: 100%;
+    }
+
+    /*---- Mandela End----*/
+
+    #transparency-section .hero-image--content {
+        margin: 0;
+    }
+
+    #transparency-section .hero-image--content p {
+        font-size: 16px;
+    }
+
+    .transparency-container .p-l-60 {
+        padding: 0;
+    }
+
+    #transparency-section .ta-icon {
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }
+
+    .transparency-logo-content {
+        text-align: center;
+    }
+
+    .transparency-logo-content img {
+        margin-bottom: 20px;
+    }
+
+    /*---- Privacy Start----*/
+    .privacy-standards-transparency {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .privacy-greybox {
+        width: auto;
+        margin: auto;
+    }
+
+    .privacy-transparency.privacy-greybox {
+        margin-top: 17px;
+    }
+
+    /*---- Privacy End----*/
+
+    .footer-heading .other-links {
+        padding: 15px;
+    }
+
+    .country-tabs-block ul li {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
+
+/*---- Max Width 700PX Ends ----*/
+
+@media only screen and (device-width: 768px) {
+
+    .download-info .download-info-btn {
+        padding: 12px 10px;
+        font-size: 15px;
+    }
+
+    .download-info .download-info-btn img {
+        margin-right: 5px;
+        width: 20px;
+    }
+
+    .experts-views--block {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .experts-views--content {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+        padding: 10px 20px;
+    }
+
+    #oncology-section .oncology-desc--image {
+        background-position: center -150px;
+    }
+
+    .hwo-research--wrap {
+        background-position: 100% center;
+    }
+
+}
+
+@media only screen and (device-width: 1024px) {
+
+    .cholesterol-desc--container,
+    .oncology-desc--container {
+        -webkit-box-align: stretch !important;
+        -ms-flex-align: stretch !important;
+        align-items: stretch !important;
+    }
+}
