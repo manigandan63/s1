@@ -1,4 +1,8 @@
 /*---- Newsroom Section Starts ----*/
+br {
+    display: none;
+}
+
 .newsroom-wrap {
     padding: 60px 0;
 }
@@ -224,6 +228,7 @@
 
 .about-hero-image-wrap .hero-image-content span {
     color: var(--theme-color-light-green);
+    color: #59bfcb;
 }
 
 .about-hero-image-wrap .hero-image-content p {
@@ -328,6 +333,7 @@
     font-size: 20px;
     margin-bottom: 15px;
     color: var(--theme-color-purple, #7f8dc1);
+    color: #7f8dc1;
 }
 
 .vision-content .vision-title {
@@ -374,7 +380,7 @@
 /*---- Our History Section ----*/
 
 .short-desc--wrap {
-    padding: 30px 0;
+    padding: 15px 0;
     background-color: var(--theme-color-green, #008a84);
     background-color: #008a84;
 }
@@ -610,9 +616,8 @@
 }
 
 .hwo-content h3 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: var(--theme-color-purple, #7f8dc1);
+    margin: 0;
+    color: #000;
 }
 
 .hwo-content p {
@@ -624,15 +629,26 @@
     text-decoration: underline;
 }
 
+.hwo-content-heading h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #7f8dc1;
+    color: var(--theme-color-purple, #7f8dc1);
+}
+
+.hwo-content-heading p:last-of-type {
+    margin: 0;
+}
+
 /*---- How We Operate Section Ends ----*/
 
 /*---- Where We Operate Section Start ----*/
-.wwo-country,
-.wwo-country-tabs {
-    padding: 40px 0 30px;
+.wwo-country {
+    padding: 40px 0;
 }
 
 .wwo-country-names .region {
+    width: 70%;
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -640,6 +656,8 @@
 
 .wwo-country-names .region:last-of-type {
     border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .wwo-content.hwo-content p {
@@ -653,36 +671,10 @@
     background-color: #eee;
     line-height: 45px;
     text-align: center;
-    margin-top: -5px;
 }
 
 .wwo-country-names .region .hwo-icon .fa {
     color: #fff !important;
-}
-
-.country-tabs-block {
-    margin-bottom: 30px;
-}
-
-.country-tabs-block ul {
-    padding: 15px;
-    background: #59bfcb;
-    display: inline-block;
-}
-
-.country-tabs-block ul li {
-    display: inline-block;
-    list-style: none;
-    color: #fff;
-    font-size: 28px;
-    font-weight: 700;
-    padding: 0 20px;
-    text-decoration: none;
-}
-
-.country-tabs-block ul li:nth-child(2) {
-    border-right: 1px solid #53e2de;
-    border-left: 1px solid #53e2de;
 }
 
 /*---- Where We Operate Section Ends ----*/
@@ -759,6 +751,10 @@
     margin: 0;
 }
 
+.some-triggers {
+    padding: 30px 0;
+}
+
 .ta-icon {
     width: 40px;
     height: 40px;
@@ -780,6 +776,7 @@
     margin-top: 5px;
     margin-bottom: 20px;
     color: var(--theme-color-purple, #7f8dc1);
+    color: #7f8dc1;
 }
 
 .ta-desc p {
@@ -828,7 +825,6 @@
 
 .ta-causes-list--wrap .list-image img {
     width: 50px;
-    margin: auto;
 }
 
 .ta-causes-list--wrap p {
@@ -976,7 +972,7 @@
 .reference-section li {
     font-size: 18px;
     list-style-position: inside;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     word-break: break-word;
 }
 
@@ -1026,7 +1022,6 @@
 
 .hypertension-complication--lists li .list-image img {
     width: 50px;
-    margin: auto;
 }
 
 .hypertension-treatment .download-info {
@@ -1036,6 +1031,7 @@
 /*---- Hypertension Section Ends ----*/
 
 /*---- Cholesterol Section Start ----*/
+.p-l-20{padding-left:25px;}
 .cholesterol-desc--container > div {
     padding: 50px 80px;
 }
@@ -1084,7 +1080,6 @@
 }
 
 .chol-type-table {
-    border-radius: 6px 6px 0 0;
     overflow: hidden;
     margin-bottom: 30px;
 }
@@ -1096,6 +1091,9 @@
     padding: 15px;
 }
 
+.chol-type .table-striped>tbody>tr:nth-of-type(odd){
+	    background-color: #ececec;
+	}
 .chol-type-table > .table > thead > tr {
     background: var(--theme-color-green, #008a84);
     background: #008a84;
@@ -1160,6 +1158,14 @@
     padding: 30px 15px;
 }
 
+.cholesterol-mid-content {
+    margin: 30px 0 !important;
+}
+
+.cholesterol-check ul li {
+    margin-bottom: 15px;
+}
+
 /*---- Cholesterol Section Ends ----*/
 
 /*---- Diabetes Section Start ----*/
@@ -1174,7 +1180,9 @@
 #oncology-section .reference-content {
     padding: 0;
 }
-
+.download-info-sec .download-info--container {
+    text-align: left !important;
+}
 /*---- Oncology Section Ends ----*/
 
 /*---- Access Section Starts ----*/
@@ -1400,7 +1408,7 @@
 
 /*---- Contat conversation Section Start ----*/
 
-/*---- environment Section Starts ----*/
+/*---- Environment Section Starts ----*/
 
 .environment-wrap {
     padding: 60px 0;
@@ -1428,7 +1436,7 @@
 }
 
 
-/*---- environment Section ends ----*/
+/*---- Environment Section ends ----*/
 
 
 /*----  MANDELA SECTION START  ----*/
@@ -1463,6 +1471,7 @@
 .mandela-join-conver--title h1 {
     font-size: 32px;
     color: var(--theme-color-purple, #7f8dc1);
+    color: #7f8dc1;
     letter-spacing: 1px;
     margin-top: 30px;
 }
@@ -1556,6 +1565,12 @@ section.mandela-join-conver--wrap {
     padding: 7px 0;
     margin-top: 24px;
     border-bottom: 1px solid #80808075;
+}
+
+#media-contacts-section5 {
+    border-bottom: 0;
+    padding-bottom: 40px;
+    margin: 0;
 }
 
 .media-contacts-border {
@@ -1684,7 +1699,9 @@ h2.media-contacts-border {
 }
 
 #media-vaccine-section .media-contacts-section2 h2:nth-child(6) {
-    padding-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #aaaaaa;
+    margin-top: 40px;
 }
 
 #media-hpv-section h2.media-contacts-border {
@@ -1849,6 +1866,9 @@ h2.media-contacts-border {
 .vaccines-link-sec a.google-store:hover .google-store-green {
     display: inline-block;
 }
+.vaccines-desc--content.container { padding: 25px 53px; }
+.reference-content { padding: 0; }
+
 
 /*----  VACCINES SECTION END  ----*/
 
@@ -1958,6 +1978,7 @@ h2.media-contacts-border {
 
 .privacy-content a {
     color: var(--theme-color-green, #008a84);
+    color: #008a84;
 }
 
 .privacy-content ul li {
@@ -2011,4 +2032,83 @@ h2.media-contacts-border {
     padding: 10px 0
 }
 
+.manag-diabetes-gallery--container .a-symptoms--content.p-r-20 {
+    padding: 0;
+}
+
 /*---- Privacy Section end ----*/
+
+@media all and (-ms-high-contrast:none) {
+    body {
+        -ms-overflow-x: hidden;
+        overflow-x: hidden;
+        -webkit-user-select: none;
+        /* Safari 3.1+ */
+        -moz-user-select: none;
+        /* Firefox 2+ */
+        -ms-user-select: none;
+        /* IE 10+ */
+        user-select: none;
+        /* Standard syntax */
+    }
+
+    .about-hero-image-wrap .hero-image-content {
+        width: 500px !important;
+        margin: 0 auto;
+
+    }
+
+    .about-hero-image-wrap .hero-image-content span {
+        color: #59bfcb;
+    }
+
+    .about-hero-image--container.container {
+        left: 26%;
+        top: 181px;
+        width: 100%;
+        padding-right: 10%;
+        position: absolute;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+/*---- New Diabetes Page ----*/
+
+.diabetes-gallery--container ul li {
+    margin-bottom: 15px;
+}
+
+.diabetes-content--wrap {
+    background-color: #00877c;
+    padding: 30px 0;
+    margin: 45px 0 0;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.diabetes-content--wrap p {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.symptoms-diabetes--container .h-a-type-list {
+    height: 235px;
+}
+
+.ta-desc h4 {
+    margin-bottom: 20px;
+}
+
+/*---- New Diabetes Page ----*/
+

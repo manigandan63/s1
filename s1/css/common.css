@@ -126,7 +126,6 @@ h4 {
 .breadcrumbs-wrap span::after {
     content: '/';
     position: relative;
-    left: 2px;
     margin: 0 4px;
 }
 
@@ -230,6 +229,10 @@ h4 {
     background-color: #ffbd08 !important
 }
 
+.bg-navy-blue {
+    background-color: #305596 !important
+}
+
 
 .font-18 {
     font-size: 18px;
@@ -263,12 +266,32 @@ h4 {
     padding-right: 20px;
 }
 
+.p-r-45 {
+    padding-right: 45px;
+}
+
 .p-l-45 {
     padding-left: 45px;
 }
 
+.p-l-50 {
+    padding-left: 50px;
+}
+
 .p-l-60 {
     padding-left: 60px;
+}
+
+.p-l-65 {
+    padding-left: 65px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.p-t-0 {
+    padding-top: 0px !important;
 }
 
 .m-t-30 {
@@ -285,6 +308,10 @@ h4 {
 
 .m-r-7 {
     margin-right: 7px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
 }
 
 .letter-spacing-2px {
@@ -483,6 +510,7 @@ h4 {
 
 .hero-image--content h1 span {
     color: var(--theme-color-light-green, #59bfcb);
+    color: #59bfcb;
 }
 
 /*---- Hero Section Ends ----*/

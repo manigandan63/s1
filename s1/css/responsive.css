@@ -90,6 +90,10 @@
         transition: all .3s ease;
     }
 
+    .wwo-country-names .region {
+        width: 100%;
+    }
+
     .navigation-wrap {
         height: 70px;
     }
@@ -118,6 +122,7 @@
     .mobile-navigation .menu-label {
         font-size: 16px;
         color: var(--theme-color-green);
+        color: #00877c;
         margin-left: 10px;
     }
 
@@ -528,7 +533,24 @@
     }
 
     /*---- privacy conversation Section end  ----*/
+
+    .diabetes-content--wrap p {
+        font-size: 18px;
+    }
+
+    .therapeutic-desc--image img,
+    .cholesterol-desc--image img,
+    .contraception-desc--image img,
+    .oncology-desc--image img,
+    .capability-desc--image img,
+    .mandela-desc--image img,
+    .vaccines-desc--image img,
+    .diabetes-desc--image img {
+        -o-object-fit: cover;
+        object-fit: cover;
+    }	
 }
+/*----- Max Width 1024px Ends -----*/
 
 /*----- Max Width 768px -----*/
 @media only screen and (max-width: 768px) {
@@ -693,9 +715,6 @@
     /*---- How We Operate End ----*/
 
     /*---- Where We Operate Start ----*/
-    .wwo-country-tabs {
-        padding-top: 0;
-    }
 
     .wwo-country--map {
         margin-bottom: 20px;
@@ -750,9 +769,6 @@
     .vaccines-desc--image img,
     .diabetes-desc--image img {
         width: 115%;
-        height: 300px;
-        -o-object-fit: cover;
-        object-fit: cover;
     }
 
 
@@ -890,12 +906,29 @@
         margin-left: 0;
     }
 
+    .sm-no-padding {
+        padding: 0 !important;
+    }
+
     /*---- Media-conacts  conversation Section end ----*/
 
     .contraception-video--block,
     .hypertension-video--block {
         width: 64%;
         height: 460px;
+    }
+
+    .diabetes-gallery--container ul.font-20 {
+        font-size: 18px !important;
+    }
+
+    .ta-desc h3 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    .cholesterol-types ul.p-l-45 {
+        padding-left: 0 !important;
     }
 
 }
@@ -909,15 +942,10 @@
         line-height: 24px;
     }
 
-    .ta-desc h3 {
-        font-size: 22px;
-        margin-bottom: 25px;
-    }
-
     .ta-icon {
         width: 30px;
         margin-right: 15px;
-        margin-top: -2px;
+        margin-top: -5px;
     }
 
     .scroll-top-btn {
@@ -955,7 +983,7 @@
     }
 
     .short-desc--wrap p {
-        font-size: 20px !important;
+        font-size: 14px !important;
     }
 
     .hero-image--content h1 {
@@ -969,6 +997,20 @@
 
     .hwo-research--wrap {
         padding: 40px 0;
+    }
+
+    .wwo-country--container .row.d-flex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .wwo-country--container #country-names {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        margin: 30px 0 0;
     }
 
     .m-person-details div {
@@ -1071,7 +1113,7 @@
     }
 
     .cholesterol-r-f .ta-icon {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
 
     #hypertension-section .hypertension-defined .ta-icon {
@@ -1199,6 +1241,34 @@
         font-size: 16px;
         padding: 0 10px;
     }
+
+    .xs-mb-20 {
+        margin-bottom: 20px !important;
+    }
+    
+    .xs-mt-20 {
+        margin-top: 20px !important;
+    }
+
+
+    .types-diabetes-gallery--container .a-symptoms--gallery.p-l-50,
+    .types-diabetes--container p.p-l-50 {
+        padding-left: 0 !important;
+    }
+    
+    .cholesterol-mid-content {
+        margin: 10px 0 !important;
+    }
+    
+    .diabetes-content--wrap {
+        padding: 15px 10px;
+    }
+    
+    .cholesterol-limits .ta-icon,
+    .lifestyle-change .ta-icon {
+        margin-bottom: 30px;
+    }
+
 }
 
 /*---- Max Width 700PX Ends ----*/
@@ -1238,6 +1308,17 @@
     }
 
 }
+
+@media only screen and (device-width: 736px) {
+    .xs-mb-20 {
+        margin-bottom: 20px !important;
+    }
+
+    .fw-pl-50 {
+        padding-left: 50px !important;
+    }
+}
+
 
 @media only screen and (device-width: 1024px) {
 
